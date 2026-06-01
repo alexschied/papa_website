@@ -1,0 +1,15 @@
+title: Christian Schied
+email: your-email@example.com
+description: >- 
+ Offizielle  Website des Murnauer Künstlers Christian Schied. 
+baseurl: "" # "christian-schied.de"
+url: "" # "christian-schied.de"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+header_pages:
+  - index.md
+  - about.md
