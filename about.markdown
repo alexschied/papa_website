@@ -17,7 +17,11 @@ permalink: /about/
 
 # Ausstellungen (Auswahl):
 - 2005    Weiden, Kunstverein: Konkret – Neue Gruppe
+
 - 2010		München, Goethe-Institut: 50 x 60 – Neue Gruppe München, Seidlvilla: Farbstoff (mit L. Schücking)
+
 - 2011    München, Haus der Kunst: Große Kunstausstellung
+
 - 2012/13 Rosenheim, Kunstverein: Jahresausstellung
+
 - 2013		München, Domagkhalle: see eat run
