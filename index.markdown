@@ -5,8 +5,8 @@ title: Home
 
 # Werke
 
-Ausgehend von einem linearen Modulsystem werden quadratische Bildobjekte strukturiert, die darin eingeschriebenen Formen gesteigert, verändert oder verdeckt. Die malerische Fläche wechselt zwischen expressiver Farbigkeit und reduziertem Hell/Dunkel, positive und negative Formen ergeben ein rhythmisiertes Bildgeflecht.
----
+> Ausgehend von einem linearen Modulsystem werden quadratische Bildobjekte strukturiert, die darin eingeschriebenen Formen gesteigert, verändert oder verdeckt. Die malerische Fläche wechselt zwischen expressiver Farbigkeit und reduziertem Hell/Dunkel, positive und negative Formen ergeben ein rhythmisiertes Bildgeflecht.
+
 
 <div class="slideshow">
   {% assign slides = site.static_files | where_exp: "f", "f.path contains '/static/images/'" %}
