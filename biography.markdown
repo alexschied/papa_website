@@ -1,4 +1,5 @@
 ---
 layout: default
-title: Biografie
+title: 2026 Rosenheim, Kunstverein: Jahresausstellung
+permalink: /rosenheim2026/
 ---
