@@ -26,4 +26,4 @@ permalink: /about/
 
 - 2013		München, Domagkhalle: see eat run
 
-- 2026 Rosenheim, Kunstverein: Jahresausstellung
+- [2026 Rosenheim, Kunstverein: Jahresausstellung](/rosenheim2026/)
