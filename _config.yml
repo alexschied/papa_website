@@ -12,5 +12,5 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - index.md
+  - werke.md
   - about.md
