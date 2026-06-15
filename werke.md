@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Werke
+permalink: /werke/
 ---
 
 # Werke
