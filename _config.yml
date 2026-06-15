@@ -4,6 +4,7 @@ description: >-
   © 2026 Christian Schied. Alle Rechte vorbehalten.
 baseurl: ""
 url: "christian-schied.de"
+lang: de
 
 # Build settings
 theme: minima
@@ -11,5 +12,5 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - index.markdown
-  - about.markdown
+  - index.md
+  - about.md
