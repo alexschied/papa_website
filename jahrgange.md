@@ -1,3 +1,9 @@
+---
+layout: default
+title: Jahrgänge
+permalink: /jahrgange/
+---
+
 [comment]: jahrgänge
 <div class="timeline-wrap">
   <h1 class="tl-title">Jahrgänge</h1>
