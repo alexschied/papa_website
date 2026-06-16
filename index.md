@@ -3,6 +3,11 @@ layout: default
 title: Start
 ---
 
-Herzlich Willkommen auf der Website des aus Murnau aktiven Künstlers Christian Schied. Verschaffen Sie einen Eindruck über einige [Werke](/werke/) oder den [Lebenslauf](/about/).
-
-![Blau, Weiß, Rot. Acryl auf Leinwand](./static/images/art1.jpg)
+<div class="row">
+  <div class="col">
+    <img src="/static/headshot/headshot.jpg" alt="Christian Schied Proträt">
+  </div>
+  <div class="col">
+    <p>Willkommen auf der Website von Christian Schied. Machen sie sich einen Überblick über ausgewählte <a href="{{ '/werke/' | url }}">Werke</a>, <a href="{{ '/about/' | url }}">Austellungen</a> oder <a href="{{ '/jahrgange/' | url }}">Jahrgänge</a>.</p>
+  </div>
+</div>

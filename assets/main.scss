@@ -1,12 +1,57 @@
 ---
 ---
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 @import "minima";
 
 .page-content a {
   color: #000;
   text-decoration: underline;
 }
-
 .page-content a:hover {
   text-decoration: none;
+}
+
+/* Homepage hero — photo + text on a Swiss grid */
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 2rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+.row .col:last-child {
+  grid-column: 1 / 6;          /* text in the left columns */
+}
+.row .col:last-child p {
+  margin: 0;
+  max-width: 34ch;             /* tight, ragged-right measure */
+  font-size: 1.1875rem;
+  line-height: 1.65;
+}
+.row .col:first-child {
+  grid-column: 8 / 13;         /* headshot in the right columns */
+}
+.row .col:first-child img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+/* Stack vertically on small screens */
+@media (max-width: 720px) {
+  .row {
+    padding: 3rem 1.5rem;
+    row-gap: 2rem;
+  }
+  .row .col:first-child,
+  .row .col:last-child {
+    grid-column: 1 / -1;
+  }
+  .row .col:last-child p {
+    max-width: none;
+  }
 }

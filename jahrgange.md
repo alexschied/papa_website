@@ -25,6 +25,26 @@ permalink: /jahrgange/
   const padL = 4, padR = 4, axisY = 20, baseLen = 0, amp = 110, sigma = 46, beta = 1.2;
 
   let ticks = [];
+  let current = null;
+
+  // gemeinsame Logik: setzt Tick-Höhen + Label anhand einer x-Position
+  function focusAt(cx){
+    const sel = document.getElementById('tl-selected');
+    let best = null, bd = Infinity;
+    for (const t of ticks) {
+      const d = t.x - cx;
+      t.el.style.height = (baseLen + amp * Math.exp(-Math.pow(Math.abs(d) / sigma, beta))) + 'px';
+      if (Math.abs(d) < bd) { bd = Math.abs(d); best = t; }
+    }
+    if (best && sel) {
+      current = best.yr;
+      sel.textContent = best.yr;
+      sel.style.left = best.x + 'px';
+      sel.style.top = (axisY + amp + 8) + 'px';
+      sel.style.opacity = 1;
+    }
+  }
+
   function build(){
     const W = tl.clientWidth;
     if (!W) { requestAnimationFrame(build); return; }
@@ -50,33 +70,24 @@ permalink: /jahrgange/
     sel.className = 'tl-selected';
     sel.id = 'tl-selected';
     tl.appendChild(sel);
+
+    // Initialzustand: erstes Jahr ausgewählt anzeigen
+    if (ticks.length) focusAt(ticks[0].x);
   }
+
   if (document.readyState === 'complete') requestAnimationFrame(build);
   else window.addEventListener('load', () => requestAnimationFrame(build));
   window.addEventListener('resize', build);
 
-  let current = null;
   tl.addEventListener('mousemove', e => {
     const cx = e.clientX - tl.getBoundingClientRect().left;
-    const sel = document.getElementById('tl-selected');
-    let best = null, bd = Infinity;
-    for (const t of ticks) {
-      const d = t.x - cx;
-      t.el.style.height = (baseLen + amp * Math.exp(-Math.pow(Math.abs(d) / sigma, beta))) + 'px';
-      if (Math.abs(d) < bd) { bd = Math.abs(d); best = t; }
-    }
-    if (best && sel) {
-      current = best.yr;
-      sel.textContent = best.yr;
-      sel.style.left = best.x + 'px';
-      sel.style.top = (axisY + amp + 8) + 'px';
-      sel.style.opacity = 1;
-    }
+    focusAt(cx);
   });
   tl.addEventListener('mouseleave', () => {
     const sel = document.getElementById('tl-selected');
     for (const t of ticks) t.el.style.height = '0px';
-    if (sel) sel.style.opacity = 0; current = null;
+    if (sel) sel.style.opacity = 0;
+    current = null;
   });
   tl.addEventListener('click', () => {
     if (current != null) window.location.href = '/jahrgang_' + current + '/';

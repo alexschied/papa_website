@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default 
 title: Über
 permalink: /about/
 ---
+
+
 # Biographie
 - 1958 geboren in München
 
