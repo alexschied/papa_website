@@ -10,7 +10,7 @@ permalink: /about/
 
 - Lebt und arbeitet in Murnau
 
-- Öffentliche Ankäufe u.a. Bayerische Staatsgemälde Sammlungen München, Förderkreis Schlossmuseum Murnau, Kulturstiftung Derriks, Hypovereinsbank München.
+- [Öffentliche Ankäufe u.a. Bayerische Staatsgemälde Sammlungen München](https://www.sammlung.pinakothek.de/en/artist/6kLaBrEG8V), Förderkreis Schlossmuseum Murnau, Kulturstiftung Derriks, Hypovereinsbank München.
 
 - Arbeiten im öffentlichen Raum, u.a. in der Stadthalle in Germering, dem Klinikum in Garmisch-Partenkirchen und der LMU in München.
 
