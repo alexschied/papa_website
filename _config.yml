@@ -14,3 +14,4 @@ plugins:
 header_pages:
   - werke.md
   - about.md
+  - jahrgange.md
