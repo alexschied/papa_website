@@ -12,6 +12,6 @@ plugins:
   - jekyll-feed
 
 header_pages:
-  - werke.md
-  - about.md
-  - jahrgange.md
+  - navigation/werke.md
+  - navigation/about.md
+  - navigation/jahrgange.md
