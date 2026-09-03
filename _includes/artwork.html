@@ -1,0 +1,18 @@
+{% assign work = site.data.works[include.slug] %}
+<div class="artwork-row">
+  <div class="artwork-image-col">
+    <img src="{{ work.image | relative_url }}" alt="{{ work.alt }}">
+  </div>
+  <div class="artwork-text-col">
+    <div class="artwork-description">
+      <div>
+        {{ work.description }}
+      </div>
+    </div>
+     <div class="artwork-meta">
+       „{{ work.title }}“, {{ work.year }}<br>
+       {{ work.materials }}<br>
+       {{ work.dimensions }}
+     </div>
+  </div>
+</div>

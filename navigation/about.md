@@ -4,13 +4,21 @@ title: Über
 permalink: /about/
 ---
 
-
-# Biographie
-- 1958 geboren in München
-
-- Studium an der Blocherschule in München  und Akademie der Bildenden Künste in München, Meisterschüler bei Prof. Manfred Hollmann.
-
-- Lebt und arbeitet in Murnau
+<div style="display: flex; gap: 20px;">
+  <div style="flex: 7;">
+    <h1>Biographie</h1>
+    <ul>
+      <li>1958 geboren in München</li>
+      <br>
+      <li>Studium an der Blocherschule in München und Akademie der Bildenden Künste in München, Meisterschüler bei Prof. Manfred Hollmann.</li>
+      <br>
+      <li>Lebt und arbeitet in Murnau</li>
+    </ul>
+  </div>
+  <div style="flex: 3;">
+   <img src="/static/headshot/headshot.jpg" width="100%">
+  </div>
+</div>
 
 - [Öffentliche Ankäufe u.a. Bayerische Staatsgemälde Sammlungen München](https://www.sammlung.pinakothek.de/en/artist/6kLaBrEG8V), Förderkreis Schlossmuseum Murnau, Kulturstiftung Derriks, Hypovereinsbank München.
 
@@ -29,3 +37,7 @@ permalink: /about/
 - 2013		München, Domagkhalle: see eat run
 
 - [2026 Rosenheim, Kunstverein: Jahresausstellung](/rosenheim2026/)
+
+# Kontakt
+
+- email: christian.schied@outlook.de

@@ -1,0 +1,8 @@
+{% assign align = include.align | default: "left" %}
+{% assign width = include.width | default: "40%" %}
+<figure class="article-image align-{{ align }}" style="width: {{ width }};">
+  <img src="{{ include.src | relative_url }}" alt="{{ include.alt }}">
+  {% if include.caption %}
+    <figcaption>{{ include.caption }}</figcaption>
+  {% endif %}
+</figure>

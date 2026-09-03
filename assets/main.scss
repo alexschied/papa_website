@@ -28,3 +28,206 @@ $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     flex-direction: column;
   }
 }
+
+/* Catalogue artwork layout (photo + title/material/measurements + description) */
+.artwork-row {
+  display: flex;
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.artwork-image-col {
+  flex: 0 0 60%;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.artwork-image-col img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.artwork-text-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.artwork-description {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.artwork-meta {
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+  font-size: 0.9em;
+  color: #444;
+}
+
+@media (max-width: 600px) {
+  .artwork-row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .artwork-image-col {
+    flex: none;
+    width: 100%;
+    align-items: stretch;
+  }
+
+  .artwork-description {
+    align-items: flex-start;
+  }
+}
+
+/* Slideshow layout */
+/* Slideshow layout: image stage + control bar + citation */
+.slideshow {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+/* Image stage — fixed height so oversized/tall images never blow up the page */
+.slide-stage {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  overflow: hidden;
+}
+
+.slide-link {
+  display: none;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.slide-link.active {
+  display: flex;   /* fills the stage, centers the image inside it */
+}
+
+.slide {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+.slide.active { display: block; }
+
+/* Control bar — solid black, between image and citation */
+.slide-controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  background: transparent;
+}
+
+.slide-controls button {
+  background: transparent;
+  border: 0;
+  color: #000;
+  font-size: 1.4rem;
+  line-height: 1;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+.slide-controls .prev { justify-self: start; }
+.slide-controls .fullscreen-btn { justify-self: center; font-size: 1.1rem; }
+.slide-controls .next { justify-self: end; }
+
+/* Citation — centered, light grey, italic, no quote marks */
+.slide-citation {
+  padding: 1rem 1.5rem;
+  text-align: center;
+  font-style: italic;
+  color: #999;
+}
+.slide-citation p { margin: 0; }
+
+/* Fullscreen: let the stage fill the remaining space, hide citation */
+.slideshow:fullscreen,
+.slideshow:-webkit-full-screen {
+  max-width: none;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: #fff;   /* or none, see note below */
+}
+.slideshow:fullscreen .slide-stage,
+.slideshow:-webkit-full-screen .slide-stage {
+  height: auto;
+  flex: 1 1 auto;
+}
+.slideshow:fullscreen .slide-citation,
+.slideshow:-webkit-full-screen .slide-citation {
+  display: none;
+}
+
+/* Article layout: long text with wrapped, non-imposing images */
+.article {
+  max-width: 700px;
+  margin: 2rem auto;
+}
+
+.article-body {
+  overflow: hidden; /* contains floats so the article doesn't collapse */
+}
+
+.article-image {
+  margin: 0 0 1rem 0;
+}
+.article-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.article-image figcaption {
+  font-size: 0.85em;
+  color: #999;
+  font-style: italic;
+  margin-top: 0.4rem;
+}
+
+.article-image.align-left {
+  float: left;
+  margin-right: 1.5rem;
+}
+.article-image.align-right {
+  float: right;
+  margin-left: 1.5rem;
+}
+
+/* Small screens: images stop floating, go full width */
+@media (max-width: 600px) {
+  .article-image.align-left,
+  .article-image.align-right {
+    float: none;
+    width: 100% !important;
+    margin: 1.5rem 0;
+  }
+}
+
+/* Footer with minimal description */
+.site-footer {
+  border-top: 0;
+}
+
+.site-description {
+  color: $grey-color;
+  font-size: 15px;
+  margin-bottom: 0;
+}

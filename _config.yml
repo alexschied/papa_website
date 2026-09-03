@@ -10,6 +10,7 @@ lang: de
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 header_pages:
   - navigation/werke.md
