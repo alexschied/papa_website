@@ -43,11 +43,9 @@ the website should only use the expected layout types. A sildeshow for "Werke" p
 │   ├── jahrgange.md
 │   └── werke.md
 ├── static
-│   ├── archive
+│   ├── archive <- pictures for documentation of exhibitions, inspirations, ...
 │   ├── headshot
-│   ├── images
-│   ├── neue_gruppe_2026
-│   └── wasserburg_2026
+│   └── images <- named images of works, need to have the title with no extras as name
 └── werke
 
 

@@ -1,17 +1,8 @@
 ---
-layout: default
+layout: article
 title: "2026 Wasserburg, AK68: Jahresausstellung"
 permalink: /wasserburg2026/
 ---
+{% include article-image.html src="static/archive/wasserburg_2026/wasserburg_ne_touchez_pas_la_hache.JPG" alt="Austellungsfoto Wasserburg 2026 " align="right" width="35%" caption="Ne touchez pas la hache, 2026" %}
 
-# "Berühre nicht das Beil" - bei der Jahrenaustellung der AK68 in Wasserburg
-
-<div class="row">
-  <div class="col">
-  <p>Zwischen dem 25.07.-23.08.2026 hängt das Hatchet (Ne touchez pas la hache, 2026 Acryl /Hartfaser 180 x 100 x 1 cm) im Wasserburger Rathaus im Rahmen der <a href="{{ 'https://www.ak68.org/programm-uebersicht/event-five-rbm8k-735j6-f66rb-3wjse-hhhgc-l2bkr' | url }}">Jahresaustellung des AK68</a></p>
-  </div>
-  <div class="col">
-    <img src="../static/images/hatchet.JPG" alt="Austellungsfoto Wasserburg 2026 Hachet">
-  </div>
-</div>
-
+Zwischen dem 25.07.-23.08.2026 hängt ["Ne touchez pas la hache"](/ne_touchez_pas_la_hache/) im Wasserburger Rathaus im Rahmen der [Jahresaustellung des AK68](https://www.ak68.org/programm-uebersicht/event-five-rbm8k-735j6-f66rb-3wjse-hhhgc-l2bkr). 

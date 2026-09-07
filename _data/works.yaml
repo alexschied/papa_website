@@ -1,4 +1,4 @@
-le-pli:
+le_pli:
   title: le pli
   year: 2026
   materials: Acryl / Leinwand / Alu
@@ -7,5 +7,35 @@ le-pli:
     „le pli“ – die Falte –, ein Relief v. 2026, stehen Titel Farbe Form und Raum in einer Wechselbeziehung zueinander.
     Verschiedene Standpunkte der aktiven, visuellen Wahrnehmung erzeugen unterschiedliche Bilder im Raum.
     Es entstehen Phänomene der Mehrdeutigkeit von Anschauung und Begriff.
-  image: /static/neue_gruppe_2026/le_pli.png
+  image: /static/images/le_pli.png
   alt: le pli, Acryl auf Leinwand
+
+ne_touchez_pas_la_hache:
+  title: Ne touchez pas la hache
+  year: 2026
+  materials: Acryl / Hartfaser
+  dimensions: 180 x 100 x 1 cm
+  description: |
+
+  image: /static/images/ne_touchez_pas_la_hache.JPG
+  alt: Ne touchez pas la hache, Acryl auf Hartfaser 
+
+cis:
+  title: CIS
+  year: 2026
+  materials: Acryl / Leinwand
+  dimensions: 105 x 90 x 4 cm
+  description: |
+    (schwarz auf rot auf weiß)
+  image: /static/images/cis.jpg
+  alt: CIS, Acryl auf Leinwand 
+
+ohne_titel1:
+  title: o.T. 
+  year: 2026
+  materials: Acryl / Leinwand
+  dimensions: 31 x 30 cm
+  description: |
+
+  image: /static/images/o_T_1.jpeg
+  alt: o.T., Acryl auf Hartfaser 

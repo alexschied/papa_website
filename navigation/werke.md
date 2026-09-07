@@ -5,10 +5,10 @@ permalink: /werke/
 layout: slideshow
 image_folder: /static/images/
 images:
-  - art1
-  - art2
-  - art3
-  - hatchet
+  - le_pli
+  - ne_touchez_pas_la_hache 
+  - o_T_1
+  - cis
 redirect_from:
   - /index/
   - /index.html

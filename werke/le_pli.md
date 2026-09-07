@@ -4,6 +4,4 @@ title: "le pli"
 permalink: /le_pli/
 ---
 
-# "le pli"
-
-{% include artwork.html slug="le-pli" %}
+{% include artwork.html slug="le_pli" %}
