@@ -6,7 +6,7 @@ permalink: /about/
 <div style="display: flex; gap: 20px;">
   <div style="flex: 6;">
     <h1>Biographie</h1>
-    <ul style="list-style: disc; padding-left: 20px; margin: 0;">
+    <ul style="list-style: none; padding-left: 0; margin: 0;">
       <li>1958 geboren in München</li>
       <br>
       <li>1979-84   Blochererschule München</li>
@@ -22,11 +22,11 @@ permalink: /about/
       <br>
     </ul>
   </div>
-  <div style="flex: 3;">
+  <div style="flex: 4;">
    <img src="/static/headshot/headshot.jpg" width="100%">
   </div>
 </div>
-<ul style="list-style: disc; padding-left: 20px; margin: 0;">
+<ul style="list-style: none; padding-left: 0; margin: 0;">
 <li style="white-space: pre-wrap; line-height: 0.7;">Mitglied im Künstlerverband Neue Gruppe e.V. München c/o Haus der Kunst<br> 
                   Kunstverein Rosenheim e.V.<br>
                   Künstlerbund Garmisch-Partenkirchen e.V.</li>
