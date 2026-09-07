@@ -97,8 +97,7 @@ In den Arbeiten dominieren Farbe, Form und Raum - sie stehen in einer kontinuier
   <li style="display: flex; gap: 12px; margin-bottom: 4px;">
     <span style="flex: 0 0 90px;">2010</span>
     <span>
-      München, Goethe-Institut: 50 x 60 – Neue Gruppe München,<br>
-      Seidlvilla: Farbstoff (mit L. Schücking)
+      München, Goethe-Institut: 50 x 60 – Neue Gruppe München, Seidlvilla: Farbstoff (mit L. Schücking)
     </span>
   </li>
 
