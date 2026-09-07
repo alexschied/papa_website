@@ -48,7 +48,7 @@ In den Arbeiten dominieren Farbe, Form und Raum - sie stehen in einer kontinuier
       <a href="/rosenheim2026/">Kunst aktuell</a> – Kunstverein Rosenheim e.V.
     </span>
   </li>
-
+<br>
   <li style="display: flex; gap: 12px; margin-bottom: 4px;">
     <span style="flex: 0 0 90px;">2025-13</span>
     <span>
@@ -56,7 +56,7 @@ In den Arbeiten dominieren Farbe, Form und Raum - sie stehen in einer kontinuier
       Neue Gruppe e.V. KVD Dachau
     </span>
   </li>
-
+<br>
   <li style="display: flex; gap: 12px; margin-bottom: 4px;">
     <span style="flex: 0 0 90px;">2024</span>
     <span>
@@ -64,7 +64,7 @@ In den Arbeiten dominieren Farbe, Form und Raum - sie stehen in einer kontinuier
       Passage – zusammen mit Traudl Scheuberth, Kloster Benediktbeuern
     </span>
   </li>
-
+<br>
   <li style="display: flex; gap: 12px; margin-bottom: 4px;">
     <span style="flex: 0 0 90px;">2023</span>
     <span>
@@ -73,34 +73,34 @@ In den Arbeiten dominieren Farbe, Form und Raum - sie stehen in einer kontinuier
       TEILE, CMS Murnau
     </span>
   </li>
-
+<br>
   <li style="display: flex; gap: 12px; margin-bottom: 4px;">
     <span style="flex: 0 0 90px;">2022</span>
     <span>ll</span>
   </li>
-
+<br>
   <li style="display: flex; gap: 12px; margin-bottom: 4px;">
     <span style="flex: 0 0 90px;">2013</span>
     <span>München, Domagkhalle: see eat run</span>
   </li>
-
+<br>
   <li style="display: flex; gap: 12px; margin-bottom: 4px;">
     <span style="flex: 0 0 90px;">2012/13</span>
     <span>Rosenheim, Kunstverein: Jahresausstellung</span>
   </li>
-
+<br>
   <li style="display: flex; gap: 12px; margin-bottom: 4px;">
     <span style="flex: 0 0 90px;">2011</span>
     <span>München, Haus der Kunst: Große Kunstausstellung</span>
   </li>
-
+<br>
   <li style="display: flex; gap: 12px; margin-bottom: 4px;">
     <span style="flex: 0 0 90px;">2010</span>
     <span>
       München, Goethe-Institut: 50 x 60 – Neue Gruppe München, Seidlvilla: Farbstoff (mit L. Schücking)
     </span>
   </li>
-
+<br>
   <li style="display: flex; gap: 12px; margin-bottom: 4px;">
     <span style="flex: 0 0 90px;">2005</span>
     <span>Weiden, Kunstverein: Konkret – Neue Gruppe</span>
