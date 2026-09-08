@@ -7,33 +7,54 @@ permalink: /about/
   <div style="flex: 6;">
     <h1>Biographie</h1>
     <ul style="list-style: none; padding-left: 0; margin: 0;">
-      <li>1958 geboren in München</li>
-      <br>
-      <li>1979-84   Blochererschule München</li>
-      <br>
-      <li style="white-space: pre-wrap; line-height: 0.7;">1988-94   Akademie der Bildenden Künste München<br> 
-                Meisterschüler bei Prof. Manfred Hollmann, Diplom</li>
-      <br>
-      <li>seit 1999 Kunst im Raumprojekte mit Bernd Weber</li>
-      <br>
-      <li>seit 2007 Formation BSW mit Yvonne Bosl und Bernd Weber</li>
-      <br>
-      <li>Lebt und arbeitet in Murnau</li>
-      <br>
-    </ul>
+      <li style="display: flex; gap: 12px; margin-bottom: 4px;">
+        <span style="flex: 0 0 54px;">1958</span>
+        <span>geboren in München</span>
+      </li>
+    <br>
+      <li style="display: flex; gap: 12px; margin-bottom: 4px;">
+        <span style="flex: 0 0 54px;">1979-84</span>
+        <span>Blochererschule München</span>
+      </li>
+    <br>
+      <li style="display: flex; gap: 12px; margin-bottom: 4px;">
+        <span style="flex: 0 0 54px;">1988-94</span>
+        <span>Akademie der Bildenden Künste München<br>Meisterschüler bei Prof. Manfred Hollmann, Diplom</span>
+      </li>
+    <br>
+      <li style="display: flex; gap: 12px; margin-bottom: 4px;">
+        <span style="flex: 0 0 54px;">seit 1999</span>
+        <span>Kunst im Raumprojekte mit Bernd Weber</span>
+      </li>
+    <br>
+      <li style="display: flex; gap: 12px; margin-bottom: 4px;">
+        <span style="flex: 0 0 54px;">seit 2007</span>
+        <span>Formation BSW mit Yvonne Bosl und Bernd Weber</span>
+      </li>
+    <br>
+      <li style="display: flex; gap: 12px; margin-bottom: 4px;">
+        <span style="flex: 0 0 54px;">    </span>
+        <span>Lebt und arbeitet in Murnau</span>
+      </li>
+    <br>
+</ul>
   </div>
   <div style="flex: 4;">
    <img src="/static/headshot/headshot.jpg" width="100%">
   </div>
 </div>
 <ul style="list-style: none; padding-left: 0; margin: 0;">
-<li style="white-space: pre-wrap; line-height: 0.7;">Mitglied im Künstlerverband Neue Gruppe e.V. München c/o Haus der Kunst<br> 
-                  Kunstverein Rosenheim e.V.<br>
-                  Künstlerbund Garmisch-Partenkirchen e.V.</li>
+  <li style="display: flex; gap: 12px; margin-bottom: 4px;">
+    <span style="flex: 0 0 54px;"></span>
+    <span>Mitglied im Künstlerverband Neue Gruppe e.V. München c/o Haus der Kunst<br>Kunstverein Rosenheim e.V.<br>Künstlerbund Garmisch-Partenkirchen e.V.</span>
+  </li>
 </ul>
 <br>
+
 ## What you see is what you see – Frank Stella<br>
-In den Arbeiten dominieren Farbe, Form und Raum - sie stehen in einer kontinuierlichen Wechselwirkung zueinander. <br> Verschiedene Positionen der aktiven visuellen Wahrnehmung im Raum erzeugen vielseitige und mehrdeutige Bilder.
+
+[comment]: In den Arbeiten dominieren Farbe, Form und Raum - sie stehen in einer kontinuierlichen Wechselwirkung zueinander. <br> Verschiedene Positionen der aktiven visuellen Wahrnehmung im Raum erzeugen vielseitige und mehrdeutige Bilder.
+
 # Ausstellungen 
 <ul style="list-style: none; padding-left: 0; margin: 0;">
 
