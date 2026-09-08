@@ -19,8 +19,6 @@ permalink: /jahrgange/
 .tl-hint { position:absolute; left:50%; transform:translateX(-50%); font-size:12px; color:#777; white-space:nowrap; opacity:0; transition:opacity .15s; pointer-events:none; }
 @media (pointer: coarse) {
   .timeline { touch-action: pan-y; }
-  .tl-tick { transition: height .15s ease; }
-  .tl-selected { transition: opacity .1s, left .15s ease; }
 }
 </style>
 
