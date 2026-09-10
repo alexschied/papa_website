@@ -10,12 +10,11 @@ lang: de
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
-# Copy the Cloudflare Pages redirect rules into the build despite the leading underscore
 include:
   - _redirects
 
-# Keep repo housekeeping files and local references out of the deployed site
 exclude:
   - LICENSE
   - Makefile
