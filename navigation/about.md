@@ -9,7 +9,7 @@ permalink: /about/
     <ul style="list-style: none; padding-left: 0; margin: 0;">
       <li style="display: flex; gap: 12px; margin-bottom: 4px;">
         <span style="flex: 0 0 54px;">1958</span>
-        <span>geboren in München</span>
+        <span>in München geboren</span>
       </li>
     <br>
       <li style="display: flex; gap: 12px; margin-bottom: 4px;">
