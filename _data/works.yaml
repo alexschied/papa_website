@@ -37,3 +37,24 @@ ohne_titel1:
 
   image: /static/images/o_T_1.jpeg
   alt: o.T., Acryl auf Hartfaser 
+
+salut:
+  title: Salut 
+  year: 2022-2025 
+  materials: Acryl / Leinwand
+  dimensions: 4 Stelen a 195 x 10 x 8 cm
+  description: |
+
+  image: /static/images/salut.jpeg
+  alt: Salut, Acryl auf Hartfaser 
+
+noa_k:
+  title: NOA/K
+  year: 2018
+  materials: Acryl / Leinwand
+  dimensions: 4 Objekte im Raum gesamt 200 x 300 cm
+  description: |
+
+  image: /static/images/noa_k.jpeg
+  alt: NOA/K, Acryl auf Hartfaser 
+

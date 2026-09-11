@@ -8,4 +8,6 @@ images:
   - ne_touchez_pas_la_hache 
   - o_T_1
   - cis
+  - salut
+  - noa_k
 ---

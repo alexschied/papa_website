@@ -50,7 +50,6 @@ permalink: /about/
   </li>
 </ul>
 <br>
-
 ## What you see is what you see – Frank Stella<br>
 
 [comment]: In den Arbeiten dominieren Farbe, Form und Raum - sie stehen in einer kontinuierlichen Wechselwirkung zueinander. <br> Verschiedene Positionen der aktiven visuellen Wahrnehmung im Raum erzeugen vielseitige und mehrdeutige Bilder.
@@ -63,9 +62,9 @@ permalink: /about/
     <span>
       80 Jahre Neue Gruppe e.V.<br>
       Jahresausstellung Künstlervereinigung GaP<br>
-      Große Kunstausstellung Wasserburg<br>
+      <a href="/wasserburg2026/">Große Kunstausstellung</a> Wasserburg<br>
       Goldrausch/ Rauschgold - Neue Gruppe, FFB Haus 10<br>
-      <a href="/nero_open/">NERO (open) </a>- mit Bernd Weber, BOX - München Planegg<br>
+      <a href="/nero_open/">NERO (open)</a> – mit Bernd Weber, BOX - München Planegg<br>
       <a href="/rosenheim2026/">Kunst aktuell</a> – Kunstverein Rosenheim e.V.
     </span>
   </li>
